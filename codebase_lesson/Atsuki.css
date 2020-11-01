@@ -1,0 +1,18 @@
+header{
+    
+    background-color:#6b8e23;
+}
+
+.name{
+    
+}
+
+.birth{
+    <!---background-image: url(0547_006_R.jpg);-->
+    height:400px;
+    background-size:auto;
+}
+   
+h2,p{
+    text-align: center;
+}

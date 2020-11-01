@@ -1,0 +1,264 @@
+  *{
+    font-family:'MS PMincho';
+    box-sizing: border-box;
+  }
+/* ヘッダーのｃｓｓ */
+  header{
+    background-color:rgba(70,30,180,0.1);
+    width:30px;
+    height:700px;
+    position:fixed;
+    z-index: 10;
+    float:left;
+    
+  }
+
+  header h3{
+    font-size:30px;
+    margin:0px;
+    padding-top:100px;
+    color:white;
+    writing-mode: vertical-lr;
+  }
+
+  .fab,.fas {
+    color:white;
+    margin-right:50px;
+  }
+
+   .menus a{
+    border-radius: 100%;
+    width:30px;
+    height:30px;
+    background-color:rgba(0,0,0,0.4);
+    display:inline-block;
+    margin-top:30px;
+  }
+
+  .menus {
+    margin-top:100px;
+  }
+
+  
+
+  
+/* bodyのｃｓｓ   */
+  h1{
+    margin:0px;
+    text-align: right;
+    font-size:40px;
+    padding-right:30px
+  }
+
+
+  h2 {
+      font-size: 40px;
+      text-align: center;
+      letter-spacing: 5px;
+  }
+  
+  .cd-fixed-bg {
+      position: relative;
+      min-height: 100%;
+      background-size: cover;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-position: center center;
+      z-index: 2;
+      box-sizing: border-box;
+      color:white;
+      height: 800px;  
+  }
+  
+  /*--固定背景01--*/
+  .cd-fixed-bg.cd-bg-1  {
+    background-color:#4682B4;
+    background: linear-gradient(#e6e6fa,#4682b4);
+  }
+  
+  /*--固定背景04--*/
+  .cd-fixed-bg.cd-bg-4  {
+    background-image: url('./para4.jpg');
+  }
+
+
+  
+  .color-change1{
+    /* background-color:rgba(0,0,0,0.4);  */
+    height:760px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+  }
+
+  .color-change2{
+    /* background-color:rgba(210,105,30,0.2); */
+    height:500px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    
+  }
+
+  .color-change{
+    /* background-color:rgba(210,105,30,0.2); */
+    height:760px;
+    width:100%;
+  }
+
+  .items{
+    display: flex;
+    display:-webkit-flex;
+    justify-content: flex-start; 
+    -webkit-justify-content: flex-start; 
+    flex-wrap:wrap;
+    -webkit-flex-wrap:wrap;
+  }
+
+  
+  .item{
+    background-color:rgba(47,79,79,0.5);
+    display:block;
+    width: 40%;
+    margin:5%;
+    
+  }
+
+  .item h3{
+    border-bottom: 3px solid black;
+    font-size:20px;
+  }
+
+  .item_page2{
+    background-color:black;
+    display:block;
+    width: 21%;
+    margin:2%;
+    /* height:150px; */
+    box-shadow: 0px 0px 10px 10px  rgba(0,0,0,0.5);
+    text-align: center;
+    
+  }
+
+  .item_page2 img{
+    width:50px;
+    height:50px;
+  }
+
+  .item p{
+    font-size:24px;
+    margin:0px;
+  }  
+
+  .connect{
+    width:100%;
+    height:30px;
+    background-color:black;
+  }
+
+  .my,.form{
+    width:40%;
+    background-color:black;
+    margin:5%;
+    display:block;
+    
+    color:white;
+  }
+  .my{
+    text-align: center;
+
+  }
+  .my h3{
+    border-bottom: 2px solid bisque;
+  }
+  
+  .form{
+    height:330px;
+  }
+
+  .form input{
+    padding:0 30%;
+    margin:15px;
+    background-color:rgba(86, 80, 109, 0.233);
+  }
+  textarea{
+    height:70px;
+    width:400px;
+    background-color:rgba(255, 255, 255, 0.08);
+    margin:30px;
+
+  }
+  label{
+    margin-left:20px;
+    margin-top:20px;
+  }
+
+  .form h3{
+    border-bottom: 2px solid bisque;
+  }
+
+
+  .what, .important{
+    width:50%;
+    background-color:rgba(25,25,112,0.7);
+    height:400px;
+    margin:50px;
+    margin-top:50px;
+  }
+
+  .color-change1 p{
+    font-size:25px;
+  }
+
+  .footer{
+    height:500px;
+    background-color:rgba(0,0,0);
+    height:600px;
+    width:100%;
+    color:white;
+    
+  }
+
+  .mycontact{
+    display: flex;
+    display:-webkit-flex;
+    justify-content: flex-start; 
+    -webkit-justify-content: flex-start; 
+    flex-wrap:wrap;
+    -webkit-flex-wrap:wrap;
+  }
+
+  
+
+  .background{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 100;
+    /* display: none;を追加してください */
+    display:none;
+  }
+
+  .container{
+    position: absolute;
+    top: 20%;
+    left: 34%;
+    background-color: #e6ecf0;
+    padding: 20px 0 40px;
+    border-radius: 10px;
+    width: 450px;
+    height: auto;
+    text-align: center;
+  }
+
+
+  .close-modal{
+    position: absolute;
+    top:5%;
+    left:90%;
+  }
