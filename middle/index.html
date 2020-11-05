@@ -5,19 +5,13 @@
         <title>保険の種類</title>
         <link rel="stylesheet" href="./index.css">   
         <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet"> 
-        
     </head>
 
     <body>
-        <header>
+        <header><!-- メニューバー -->
             <i class="far fa-flushed btn"></i>
 
             <h3>menu-bar</h3>
-            
-            
-            
-            
-            
             
             <div class="menus">
                 
@@ -40,30 +34,24 @@
                     <a class="scroll-btn" href="#footer">
                         <p class="five" >FOOTER</p>
                     </a>
-                    
             </div>
-            
-            
         </header>
-
-        <!-- メニューバー -->
-         
-        
-            <!--固定背景01-->
+<!-- TOP -->
             <div class="cd-fixed-bg cd-bg-1" id="top">
                 <div class="color-change1">
                     <h2>types of insurance</h2>
                 </div>
             </div>
-
-            <!--固定背景02-->
+<!-- MAIN1 -->
             <div class="cd-fixed-bg cd-bg-4" id="main1">
-                <div class="wrapper">
-                    <h1>INTRODUCTION</h1>
+                    <div class="copy">
+                        <h1>INTRODUCTION</h1>
+                    </div>
                     <div class="color-change1">
                     　  <div class="what">
                             <h2>保険とは</h2>   
-                            <p>火災・死亡など偶然に発生する事故によって生じる経済的不安に備えて、多数の者が掛け金を出し合い、それを資金として事故に遭遇した者に一定金額を給付する制度。生命保険・損害保険などの種類があります。今回は損害保険を紹介します。</p>
+                            <p>火災・死亡など偶然に発生する事故によって生じる経済的不安に備えて、多数の者が掛け金を出し合い、それを資金として事故に遭遇した者に一定金額を給付する制度。</p>
+                            <p>生命保険・損害保険などの種類があります。今回は損害保険を紹介します。</p>
                         </div>
                         <div class="important">
                             <h2>大事なこと</h2>
@@ -72,14 +60,9 @@
                             <p>③交通事故は年間平均で53万7000件、来年事故る人もこんだけいる。その人たちは今何しているだろうか</p>
                         </div>   
                     </div>
-                </div>
+                
             </div>
-
-            <!-- <div class="connect"></div> -->
-
-            
-            
-            <!--固定背景03-->
+<!-- MAIN2 -->
             <div class="cd-fixed-bg cd-bg-4" id="main2">
                 <div class="color-change">
                     <div class="copy">
@@ -105,13 +88,7 @@
                     </div>  
                 </div>
             </div>
-
-            <!-- <div class="connect"></div> -->
-
-            
-           
-            
-            <!--固定背景04-->
+<!-- MAIN3 -->
             <div class="cd-fixed-bg cd-bg-4" id="main3">
                 <div class="color-change">
                         <h1>unique insurance</h1>   
@@ -178,16 +155,10 @@
                                 <img src="virus.png">
                                 <p class="text">バイオテクノロジーを使った製品は、技術の核心に微妙な生物である微生物や細菌を多用するので、その死滅や変質した場合の生産開始までの復元費用、また工場外に漏れ他人に被害を与える恐れがあるため、その対策にかかった費用を補償。</p>
                             </div>
-
-                            
                         </div>
                 </div>
             </div>
-
-           
-
-            <!-- 固定背景05 -->
-            
+ <!-- FOOTER            -->
                 <div class="footer" id="footer">
                     <h1>CONTACT</h1>
                     <div class="mycontact">
@@ -213,27 +184,21 @@
 
                         <form action="/form.php" method="post" class="form">
                             <h3>CONTACT FORM </h3>
-                            <div>
-                                
-                                <input  class="write" type="text" id="name" name="name" placeholder="name">
-                            </div>
-                            <div>
-                                
-                                <input  class="write" type="mail" id="email" name="email" placeholder="Email">
-                            </div>
-                            <div>
-                                
+                            
+                                <label for="name" >NAME</label>
+                                <input  class="write" type="text" id="name" name="name">
+                          
+                                <label for="email">EMAIL</label>
+                                <input  class="write" type="mail" id="email" name="email">
+                           
+                                <label for="message">MESSAGE</label>
                                 <textarea id="message" name="message"></textarea>
-                            </div>
-                            <input type="submit" value="SUBMIT" class="submit">
+                            
+                            <input type="submit" value="GO!" class="submit">
                         </form>
                     </div> 
                 </div>
-           
-           
         </main>
-
-        
     </body>
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="./index.js"></script>
